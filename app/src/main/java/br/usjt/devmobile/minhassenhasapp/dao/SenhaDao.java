@@ -1,4 +1,4 @@
-package br.usjt.devmobile.minhassenhasapp;
+package br.usjt.devmobile.minhassenhasapp.dao;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -7,6 +7,8 @@ import androidx.room.Query;
 import androidx.room.Update;
 
 import java.util.List;
+
+import br.usjt.devmobile.minhassenhasapp.model.Senha;
 
 @Dao
 public interface SenhaDao {

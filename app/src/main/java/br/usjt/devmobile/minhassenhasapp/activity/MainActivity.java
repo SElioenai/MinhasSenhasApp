@@ -1,4 +1,4 @@
-package br.usjt.devmobile.minhassenhasapp;
+package br.usjt.devmobile.minhassenhasapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,7 +19,6 @@ import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-import com.facebook.login.widget.LoginButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.orhanobut.hawk.Hawk;
 import com.rishabhharit.roundedimageview.RoundedImageView;
@@ -27,6 +26,8 @@ import com.rishabhharit.roundedimageview.RoundedImageView;
 import java.io.File;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+
+import br.usjt.devmobile.minhassenhasapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

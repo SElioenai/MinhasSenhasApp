@@ -1,8 +1,10 @@
-package br.usjt.devmobile.minhassenhasapp;
+package br.usjt.devmobile.minhassenhasapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import br.usjt.devmobile.minhassenhasapp.R;
 
 public class ListaSenhasActivity extends AppCompatActivity {
 

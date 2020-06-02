@@ -1,7 +1,6 @@
-package br.usjt.devmobile.minhassenhasapp;
+package br.usjt.devmobile.minhassenhasapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.MenuItemCompat;
 import androidx.room.Room;
 
 import android.app.SearchManager;
@@ -16,11 +15,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.SearchView;
 import android.widget.Toast;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import androidx.appcompat.widget.Toolbar;
+
+import br.usjt.devmobile.minhassenhasapp.dao.AppDatabase;
+import br.usjt.devmobile.minhassenhasapp.R;
+import br.usjt.devmobile.minhassenhasapp.model.Senha;
 
 public class ListasSenhasActivity extends AppCompatActivity {
 

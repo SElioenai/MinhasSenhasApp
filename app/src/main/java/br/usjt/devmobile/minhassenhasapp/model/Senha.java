@@ -1,4 +1,4 @@
-package br.usjt.devmobile.minhassenhasapp;
+package br.usjt.devmobile.minhassenhasapp.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

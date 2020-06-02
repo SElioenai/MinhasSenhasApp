@@ -1,13 +1,10 @@
-package br.usjt.devmobile.minhassenhasapp;
+package br.usjt.devmobile.minhassenhasapp.activity;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AlertDialog.Builder;
 import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.room.Room;
 
 
-import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -15,7 +12,9 @@ import android.widget.Toast;
 import com.google.android.material.textfield.TextInputEditText;
 import android.content.Intent;
 
-import java.util.Optional;
+import br.usjt.devmobile.minhassenhasapp.dao.AppDatabase;
+import br.usjt.devmobile.minhassenhasapp.R;
+import br.usjt.devmobile.minhassenhasapp.model.Senha;
 
 
 public class CadastroSenhaActivity extends AppCompatActivity {

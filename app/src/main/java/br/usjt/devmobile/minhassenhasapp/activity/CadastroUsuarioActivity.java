@@ -1,4 +1,4 @@
-package br.usjt.devmobile.minhassenhasapp;
+package br.usjt.devmobile.minhassenhasapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +18,8 @@ import com.rishabhharit.roundedimageview.RoundedImageView;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import br.usjt.devmobile.minhassenhasapp.R;
 
 public class CadastroUsuarioActivity extends AppCompatActivity {
 

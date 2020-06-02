@@ -1,4 +1,4 @@
-package br.usjt.devmobile.minhassenhasapp;
+package br.usjt.devmobile.minhassenhasapp.activity;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,7 +10,10 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import br.usjt.devmobile.minhassenhasapp.dao.AppDatabase;
+import br.usjt.devmobile.minhassenhasapp.R;
+import br.usjt.devmobile.minhassenhasapp.model.Senha;
 
 public class DetalhesSenhaActivity extends AppCompatActivity {
 
