@@ -1,18 +1,23 @@
 package br.usjt.devmobile.minhassenhasapp;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.PatternMatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.dhaval2404.imagepicker.ImagePicker;
 import com.google.android.material.textfield.TextInputEditText;
 import com.orhanobut.hawk.Hawk;
 import com.rishabhharit.roundedimageview.RoundedImageView;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CadastroUsuarioActivity extends AppCompatActivity {
 

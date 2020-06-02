@@ -84,13 +84,16 @@
                 android:hint="Senha"
                 android:textColor="@color/colorTextView"
                 android:textColorHint="@color/colorAccent"
-                android:textSize="15sp">
+                android:textSize="15sp"
+                app:passwordToggleDrawable="@android:drawable/ic_menu_view"
+                app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/senhaEditTextInput"
                     android:layout_width="match_parent"
                     android:tooltipText="v"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
