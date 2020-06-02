@@ -39,8 +39,8 @@
                 android:id="@+id/userImage"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/ic_person"
-                app:cornerRadius="1000dp" />
+                android:src="@mipmap/ic_person"
+            app:cornerRadius="1000dp" />
 
             <ImageButton
                 android:id="@+id/capturedImage"
